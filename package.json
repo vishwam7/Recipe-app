@@ -1,19 +1,24 @@
 {
-  "name": "recipe-app",
-  "version": "1.0.0",
-  "description": "forkify",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/vishwam7/recipe-app.git"
-  },
-  "author": "Vishwam Shah",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/vishwam7/recipe-app/issues"
-  },
-  "homepage": "https://github.com/vishwam7/recipe-app#readme"
+    "name": "recipe-app",
+    "version": "1.0.0",
+    "description": "forkify",
+    "main": "index.js",
+    "scripts": {
+        "dev": "webpack"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/vishwam7/recipe-app.git"
+    },
+    "author": "Vishwam Shah",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/vishwam7/recipe-app/issues"
+    },
+    "homepage": "https://github.com/vishwam7/recipe-app#readme",
+    "devDependencies": {
+        "webpack": "^4.44.2",
+        "webpack-cli": "^2.1.5",
+        "webpack-dev-server": "^3.11.0"
+    }
 }
