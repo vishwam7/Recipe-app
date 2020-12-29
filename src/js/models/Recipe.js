@@ -35,7 +35,6 @@ export default class Recipe {
                 unit: el.unit,
                 ingredient: el.name
             }
-            console.log(objIng);
             return objIng;
         });
         this.ingredients = newIngredients;
