@@ -8,7 +8,6 @@ export default class Search {
         try {
             const res = await axios(`https://api.spoonacular.com/recipes/complexSearch?apiKey=${key}&query=${this.query}&number=30`);
             this.result = res.data.results;
-            console.log(this.result);
         } catch (error) {
             alert(error);
         }
